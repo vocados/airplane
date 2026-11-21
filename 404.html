@@ -1,0 +1,54 @@
+<html lang="ko">
+   <head>
+      <meta charset="utf-8">
+      <meta name="X-UA-Compatible" content="IE=edge">
+      <title>비행기 시간표</title>
+      <meta name="description" content="비행기 시간표">
+      <meta name="og:url" content="https://air.vicharas.net/">
+      <meta name="og:type" content="blog">
+      <meta name="og:title" content="비행기 시간표">
+      <meta name="og:description" content="비행기 시간표,비행기,항공">
+      <meta name="og:image" content="/favicon.png">
+      <meta name="author" content="비행기 시간표">
+      <meta name="twitter:card" content="summary">
+      <meta name="twitter:url" content="https://air.vicharas.net/">
+      <meta name="twitter:title" content="비행기 시간표">
+      <meta name="twitter:description" content="비행기 시간표,비행기,항공">
+      <meta name="twitter:image" content="/favicon.png">
+      <link rel="canonical" href="https://air.vicharas.net/">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="icon" href="/favicon.png">
+      <link rel="search" type="application/opensearchdescription+xml" href="https://vocados.github.io/atom.xml" title="비행기 시간표">
+<script async src="//www.googletagmanager.com/gtag/js?id=G-L8WY29CCGW"></script>
+<script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-L8WY29CCGW");</script>
+      <script data-ad-client="ca-pub-0031623727468371" async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+      <link href="/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+   </head>
+   <body>
+      <header>
+         <div class="container py-3" style="text-align:center;"><a href="/" class="logo-link"><img src="/favicon.png" alt="logo"></a></div>
+      </header>
+      <main>
+         <section class="text-center container">
+            <h2 class="fw-light">페이지를 찾을 수 없습니다.</h2>
+            <div class="row">
+               <div class="row">
+                  <div class="col">
+                     <ul class="list-group" id="master"><a href="javascript:;" onclick="detail('4');" class="list-group-item list-group-item-action">전라남도</a><a href="javascript:;" onclick="detail('11');" class="list-group-item list-group-item-action">경상남도</a><a href="javascript:;" onclick="detail('2');" class="list-group-item list-group-item-action">인천</a><a href="javascript:;" onclick="detail('7');" class="list-group-item list-group-item-action">충청남도</a><a href="javascript:;" onclick="detail('5');" class="list-group-item list-group-item-action">전라북도</a><a href="javascript:;" onclick="detail('6');" class="list-group-item list-group-item-action">제주특별자치도</a><a href="javascript:;" onclick="detail('10');" class="list-group-item list-group-item-action">경기도</a><a href="javascript:;" onclick="detail('12');" class="list-group-item list-group-item-action">경상북도</a></ul>
+                  </div>
+                  <div class="col">
+                     <ul class="list-group" id="detail"></ul>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="text-center container"> <br><br><br> <br><br> <br> </section>
+      </main>
+      <footer class="text-muted py-5">
+         <div class="container">
+            <p style="text-align: center;"> © 2021 <a href="https://air.vicharas.net">비행기 시간표</a></p>
+         </div>
+      </footer>
+      <script type="text/javascript" src="/assets/dist/js/bootstrap.bundle.min.js"></script><script type="text/javascript" src="//openmain.pstatic.net/js/openmain.js"></script><script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5fdbec10a448e968"></script> <script>var start="",loaded=!1;function callAjax(t,e){var a=new XMLHttpRequest;a.onreadystatechange=function(){4==a.readyState&&200==a.status&&e(JSON.parse(a.responseText))},a.open("GET",t,!0),a.send()}function getLocation(t){var e="/timetable/"+encodeURI(start+" 에서 "+t+" 가는 비행기 시간표")+"/";location.href=e}function detail(t){start=t,callAjax("/json/"+encodeURI(t)+".json",function(t){for(var e=[],a=0;a<t.length;a++){var n=t[a];e.push('<a href="javascript:;" onclick="getLocation(\''+n+'\');" class="list-group-item list-group-item-action">'+n+"</a>")}document.getElementById("detail").innerHTML=e.join("")})}function loadScript(t,e){var a=document.createElement("script");a.type="text/javascript",a.async=!0,a.readyState?a.onreadystatechange=function(){"loaded"!=a.readyState&&"complete"!=a.readyState||(a.onreadystatechange=null,e&&"function"==typeof e&&e())}:a.onload=function(){e&&"function"==typeof e&&e()},a.src=t,(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}loadScript("https://code.jquery.com/jquery-3.6.0.min.js",function(){$(document).ready(function(){callAjax("/json/master.json",function(t){for(var e=[],a=0;a<t.length;a++){var n=t[a];e.push('<a href="javascript:;" onclick="detail(\''+n+'\');" class="list-group-item list-group-item-action">'+n+"</a>")}document.getElementById("master").innerHTML=e.join("")})})});</script>
+   </body>
+</html>
